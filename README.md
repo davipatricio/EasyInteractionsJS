@@ -1,7 +1,7 @@
 # EasyInteractionsJS
 Responda a interações e Slash Commands facilmente, sem ter que recriar todos os comandos de seu bot.
 
-Para criar Slash Commands: [clique aqui](https://slash-commands-gui.netlify.app/) 
+Para criar Slash Commands facilmente e interativamente, [clique aqui](https://slash-commands-gui.netlify.app/).
 
 ## Recursos
  - Argumentos
@@ -9,6 +9,7 @@ Para criar Slash Commands: [clique aqui](https://slash-commands-gui.netlify.app/
  - Detecta se o bot está no servidor
  - Detecta se o comando usado foi na DM
  - Suporte a argumentos com escolhas
+ - Desenvolvido na última versão do Discord.js (v12.5.3)
  - Menções são organizadas automaticamente no Message.mentions
  - ACK na interação "Bot está pensando" (ideal para comandos que demoram para ser executados, como edição de imagem)
  - Sem bugs?
