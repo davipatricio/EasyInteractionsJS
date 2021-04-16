@@ -1,6 +1,8 @@
 # EasyInteractionsJS
 Responda a interações e Slash Commands facilmente, sem ter que recriar todos os comandos de seu bot.
 
+Para criar Slash Commands: [clique aqui](https://slash-commands-gui.netlify.app/) 
+
 ## Recursos
  - Argumentos
  - Verificação de permissões
