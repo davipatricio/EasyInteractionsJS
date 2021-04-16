@@ -1,5 +1,5 @@
 # EasyInteractionsJS
-Responda a interações e Slash Commands facilmente, sem ter que recriar todos os comandos.
+Responda a interações e Slash Commands facilmente, sem ter que recriar todos os comandos de seu bot.
 
 ## Recursos
  - Argumentos
