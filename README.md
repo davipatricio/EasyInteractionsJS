@@ -7,11 +7,13 @@ Crie um arquivo na pasta de seu bot, em um diretório de fácil acesso. Para fac
 No arquivo de inicialização de seu bot, após a criação do client, dê um require no arquivo criado, passando o cliente como argumento, de preferencia no evento READY.
 Exemplo básico: 
 
-```const { Client } = require('discord.js');
+```
+const { Client } = require('discord.js');
 const client = new Client()
 
 require('./SlashCommands')(client)
-// ... resto de seu código```
+// ... resto de seu código
+```
 
 e pronto!
 
