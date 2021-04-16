@@ -1,13 +1,16 @@
 # EasyInteractionsJS
 Responda a interações e Slash Commands facilmente, sem ter que recriar todos os comandos.
+
 Com suporte a detecção de permissões, organização de menções, argumentos, argumentos com escolhas "options e choices" e etc.
 
 ## Implementação
 Crie um arquivo na pasta de seu bot, em um diretório de fácil acesso. Para facilitar, coloque o arquivo na mesma pasta onde o arquivo de inicialização do seu bot está presente. Vamos dar o nome de `SlashCommands.js`.
-No arquivo de inicialização de seu bot, após a criação do client, dê um require no arquivo criado, passando o cliente como argumento, de preferencia no evento READY.
-Exemplo básico: 
 
-```
+No arquivo de inicialização de seu bot, após a criação do client, dê um require no arquivo criado, passando o cliente como argumento, de preferencia no evento READY.
+
+**Exemplo básico:**
+
+```javascript
 const { Client } = require('discord.js');
 const client = new Client()
 
