@@ -14,7 +14,7 @@ class ReportCommand {
 		};
 	}
 
-	async run(client, msg, args, prefixo, t, rawIdioma) {
+	async run(client, msg, args, prefixo) {
 			msg.q('hello world')
 		}
 	}
