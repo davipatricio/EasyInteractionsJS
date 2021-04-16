@@ -1,7 +1,15 @@
 # EasyInteractionsJS
 Responda a interações e Slash Commands facilmente, sem ter que recriar todos os comandos.
 
-Com suporte a detecção de permissões, organização de menções, argumentos, argumentos com escolhas "options e choices" e etc.
+## Recursos
+ - Argumentos
+ - Verificação de permissões
+ - Detecta se o bot está no servidor
+ - Detecta se o comando usado foi na DM
+ - Suporte a argumentos com escolhas
+ - Menções são organizadas automaticamente no Message.mentions
+ - ACK na interação "Bot está pensando" (ideal para comandos que demoram para ser executados, como edição de imagem)
+ - Sem bugs?
 
 ## Implementação
 Crie um arquivo na pasta de seu bot, em um diretório de fácil acesso. Para facilitar, coloque o arquivo na mesma pasta onde o arquivo de inicialização do seu bot está presente. Vamos dar o nome de `SlashCommands.js`.
