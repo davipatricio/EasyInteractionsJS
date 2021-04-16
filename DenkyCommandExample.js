@@ -1,4 +1,4 @@
-class ReportCommand {
+module.exports = class ReportCommand {
 	constructor() {
 		return {
 			perm: {
@@ -19,5 +19,3 @@ class ReportCommand {
 		}
 	}
 }
-
-module.exports = ReportCommand;
