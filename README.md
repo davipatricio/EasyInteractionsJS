@@ -23,9 +23,13 @@ No arquivo de inicialização de seu bot, após a criação do client, dê um re
 
 ```javascript
 const { Client } = require('discord.js');
-const client = new Client()
+const client = new Client();
 
-require('./SlashCommands')(client)
+client.login('Token');
+
+client.once('ready', () =>
+     require('./SlashCommands')(client)
+)
 // ... resto de seu código
 ```
 
